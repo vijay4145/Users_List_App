@@ -1,13 +1,11 @@
 package com.example.userlist.adapter;
 
 import android.view.LayoutInflater;
-import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.userlist.R;
 import com.example.userlist.databinding.UserCardBinding;
 import com.example.userlist.model.UserModel;
 
@@ -38,6 +36,11 @@ public class UserListRecyclerViewAdapter extends RecyclerView.Adapter<UserListRe
     @Override
     public int getItemCount() {
         return userList.size();
+    }
+
+    public void setUserList(List<UserModel> userModelList) {
+        this.userList = userModelList;
+        notifyDataSetChanged();
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder{

@@ -1,6 +1,5 @@
 package com.example.userlist.model;
 
-import android.widget.ImageView;
 
 import androidx.databinding.BindingAdapter;
 
@@ -9,9 +8,10 @@ import com.bumptech.glide.Glide;
 import de.hdodenhof.circleimageview.CircleImageView;
 
 public class UserModel {
-    String firstName, lastName, email, profilePicUrl;
+    String firstName, lastName, email, profilePicUrl, imageUrl;
     int age;
 
+    UserModel(){}
     public UserModel(String firstName, String lastName, String email, String profilePicUrl, int age) {
         this.firstName = firstName;
         this.lastName = lastName;
@@ -58,6 +58,14 @@ public class UserModel {
 
     public void setProfilePicUrl(String profilePicUrl) {
         this.profilePicUrl = profilePicUrl;
+    }
+
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
     }
 
     @BindingAdapter("android:loadImage")
