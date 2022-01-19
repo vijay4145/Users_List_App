@@ -7,6 +7,7 @@ It also uses MVVM pattern with data binding which makes our app code maintainabl
 
 
 ## Apk Link
+Download apk file from below link and install it from file manager.
 
 https://github.com/vijay4145/Users_List_App/blob/master/userListapk/user_list_app.apk
 
