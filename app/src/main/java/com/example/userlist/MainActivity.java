@@ -52,14 +52,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private List<UserModel> getUserList() {
-        List<UserModel> userModelList = new ArrayList<>();
-        String imgUrl = "https://cdn.dribbble.com/users/2878951/screenshots/14013747/media/603f0b853c409547dfa51cba996f375c.png";
-        UserModel userModel = new UserModel("vijay", "gupta", "vijay@gmail.com", imgUrl, 22);
-        userModelList.add(userModel);
-        userModelList.add(userModel);
-        return userModelList;
-    }
 
     @Override
     public void onBackPressed() {
