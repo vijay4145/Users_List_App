@@ -4,6 +4,14 @@
 This is a user List app which fetches the list of user from Api(https://jsonblob.com/api/933015671865098240).
 It also uses MVVM pattern with data binding which makes our app code maintainable, adds boosted performance, easy for testing.
 
+
+
+## Apk Link
+
+https://github.com/vijay4145/Users_List_App/blob/master/userListapk/user_list_app.apk
+
+
+
 ## Tech Stack
 
 Android studio, Java, Retrofit, Glide library, MVVM patterns, data bindings, Recycler view, Lottie animations.
