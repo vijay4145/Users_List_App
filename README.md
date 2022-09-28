@@ -1,7 +1,7 @@
 
 # User List App
 
-This is a user List app which fetches the list of user from Api(https://jsonblob.com/api/933015671865098240).
+This is a apte user List app which fetches the list of user from Api(https://jsonblob.com/api/933015671865098240).
 It also uses MVVM pattern with data binding which makes our app code maintainable, adds boosted performance, easy for testing.
 
 
